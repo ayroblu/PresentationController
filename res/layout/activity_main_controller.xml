@@ -1,0 +1,36 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainController" >
+
+    <Button
+        android:id="@+id/lbutton"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:text="&lt;&lt;" />
+
+    <LinearLayout
+        android:id="@+id/imagell"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="70"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/rbutton"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:text=">>" />
+
+</LinearLayout>

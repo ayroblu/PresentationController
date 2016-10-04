@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PPTController</string>
+    <string name="touch_name">Touch Pad</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    
+	<string name="open_touch">Open Touch</string>
+    <string name="secure_connect_scan">Secure Connect Scan</string>
+    <string name="switch_monitor">Switch Monitor</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">scanning for devices&#8230;</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    
+    <!-- Options Menu -->
+    <string name="secure_connect">Connect a device</string>
+    <string name="discoverable">Make discoverable</string>
+    
+    <!--  BluetoothChat -->
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+</resources>

@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/secure_connect_scan"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/secure_connect_scan"/>
+    
+    <item
+        android:id="@+id/switch_monitor"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_rotate"
+        android:title="@string/switch_monitor"/>
+
+</menu>
